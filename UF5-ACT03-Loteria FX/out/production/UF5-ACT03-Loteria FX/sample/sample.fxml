@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0"
+      prefWidth="353.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="button_sorteig" layoutX="70.0" layoutY="148.0" mnemonicParsing="false"
+                onAction="#iniciar_sorteig" prefHeight="52.0" prefWidth="108.0" text="Realitzar Sorteig"/>
+        <Button fx:id="button_comprovar" disable="true" layoutX="191.0" layoutY="148.0" mnemonicParsing="false"
+                onAction="#comprovar" prefHeight="52.0" prefWidth="108.0" text="Comprovar"/>
+        <Label fx:id="label_resultat" layoutX="18.0" layoutY="291.0" prefHeight="52.0" prefWidth="317.0"/>
+        <Label layoutX="26.0" layoutY="22.0" prefHeight="34.0" prefWidth="241.0" text="Entra la teva aposta:">
+            <font>
+                <Font name="System Bold" size="18.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="aposta_1" layoutX="22.0" layoutY="74.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="aposta_2" layoutX="77.0" layoutY="74.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="aposta_3" layoutX="131.0" layoutY="74.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="aposta_4" layoutX="183.0" layoutY="74.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="aposta_5" layoutX="239.0" layoutY="74.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="aposta_6" layoutX="290.0" layoutY="74.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="resultat_1" layoutX="21.0" layoutY="239.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="resultat_2" layoutX="76.0" layoutY="239.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="resultat_3" layoutX="130.0" layoutY="239.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="resultat_4" layoutX="182.0" layoutY="239.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="resultat_5" layoutX="238.0" layoutY="239.0" prefHeight="42.0" prefWidth="41.0"/>
+        <TextField fx:id="resultat_6" layoutX="289.0" layoutY="239.0" prefHeight="42.0" prefWidth="41.0"/>
+    </children>
+</Pane>
